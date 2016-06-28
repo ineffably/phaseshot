@@ -1,0 +1,172 @@
+{"frames": {
+
+"meteorBrown_big1.png":
+{
+	"frame": {"x":2,"y":2,"w":101,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":84},
+	"sourceSize": {"w":101,"h":84}
+},
+"meteorBrown_big2.png":
+{
+	"frame": {"x":105,"y":2,"w":120,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":98},
+	"sourceSize": {"w":120,"h":98}
+},
+"meteorBrown_big3.png":
+{
+	"frame": {"x":227,"y":2,"w":89,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":82},
+	"sourceSize": {"w":89,"h":82}
+},
+"meteorBrown_big4.png":
+{
+	"frame": {"x":318,"y":2,"w":98,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":96},
+	"sourceSize": {"w":98,"h":96}
+},
+"meteorBrown_med1.png":
+{
+	"frame": {"x":418,"y":2,"w":43,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":43},
+	"sourceSize": {"w":43,"h":43}
+},
+"meteorBrown_med3.png":
+{
+	"frame": {"x":463,"y":2,"w":45,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":40},
+	"sourceSize": {"w":45,"h":40}
+},
+"meteorBrown_small1.png":
+{
+	"frame": {"x":510,"y":2,"w":28,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":28},
+	"sourceSize": {"w":28,"h":28}
+},
+"meteorBrown_small2.png":
+{
+	"frame": {"x":540,"y":2,"w":29,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":26},
+	"sourceSize": {"w":29,"h":26}
+},
+"meteorBrown_tiny1.png":
+{
+	"frame": {"x":571,"y":2,"w":18,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
+	"sourceSize": {"w":18,"h":18}
+},
+"meteorBrown_tiny2.png":
+{
+	"frame": {"x":591,"y":2,"w":16,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":15},
+	"sourceSize": {"w":16,"h":15}
+},
+"meteorGrey_big1.png":
+{
+	"frame": {"x":609,"y":2,"w":101,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":84},
+	"sourceSize": {"w":101,"h":84}
+},
+"meteorGrey_big2.png":
+{
+	"frame": {"x":712,"y":2,"w":120,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":98},
+	"sourceSize": {"w":120,"h":98}
+},
+"meteorGrey_big3.png":
+{
+	"frame": {"x":834,"y":2,"w":89,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":82},
+	"sourceSize": {"w":89,"h":82}
+},
+"meteorGrey_big4.png":
+{
+	"frame": {"x":2,"y":102,"w":98,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":96},
+	"sourceSize": {"w":98,"h":96}
+},
+"meteorGrey_med1.png":
+{
+	"frame": {"x":102,"y":102,"w":43,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":43},
+	"sourceSize": {"w":43,"h":43}
+},
+"meteorGrey_med2.png":
+{
+	"frame": {"x":147,"y":102,"w":45,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":40},
+	"sourceSize": {"w":45,"h":40}
+},
+"meteorGrey_small1.png":
+{
+	"frame": {"x":194,"y":102,"w":28,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":28},
+	"sourceSize": {"w":28,"h":28}
+},
+"meteorGrey_small2.png":
+{
+	"frame": {"x":224,"y":102,"w":29,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":26},
+	"sourceSize": {"w":29,"h":26}
+},
+"meteorGrey_tiny1.png":
+{
+	"frame": {"x":255,"y":102,"w":18,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
+	"sourceSize": {"w":18,"h":18}
+},
+"meteorGrey_tiny2.png":
+{
+	"frame": {"x":275,"y":102,"w":16,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":15},
+	"sourceSize": {"w":16,"h":15}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "SpaceShooterMeteors.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":200},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3a7f7b9226cc1448fee5ee0d180badb6:3793035ad1170f29584d89f35bef9ef3:3ca8381aa2a1ce1201ef80ef8c53dbae$"
+}
+}

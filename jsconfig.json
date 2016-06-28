@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    // "typings/phaser/box2d.d.ts",
+    "typings/phaser/p2.d.ts",
+    "typings/phaser/phaser.comments.d.ts",
+    "typings/phaser/phaser.d.ts",
+    // "typings/phaser/phaser_box2d.d.ts",
+    "typings/phaser/pixi.comments.d.ts",
+    "typings/phaser/pixi.d.ts"
+  ]
+}

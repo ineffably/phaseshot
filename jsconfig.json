@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "commonjs"
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true    
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ],
   "files": [
     // "typings/phaser/box2d.d.ts",

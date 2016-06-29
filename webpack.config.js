@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var htmlWebpackPlugin = require('html-webpack-plugin');
 
 // Phaser webpack config
 var phaserModule = path.join(__dirname, '/node_modules/phaser/');
@@ -12,25 +13,24 @@ var definePlugin = new webpack.DefinePlugin({
 })
 
 module.exports = {
-  entry: {
-    app: [
+  entry: { app: [
       'babel-polyfill',
-      path.resolve(__dirname, './src/main.js')
+      path.resolve(__dirname, 'src/main.js')
     ]
-  },
+  }
+  ,
   devtool: 'source-map',
   output: {
-    pathinfo: true,
-    path: path.resolve(__dirname, './dist'),
-    publicPath: './dist',
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
   watch: true,
   module: {
     loaders: [{
       test: /\.js$/,
-      loader: 'babel',
-      include: path.join(__dirname, 'src')
+      loaders: ['babel?presets[]=es2015'],
+      include: path.join(__dirname, 'src'),
+      exclude: /node_modules/
     }, {
       test: /pixi\.js/,
       loader: 'expose?PIXI'
@@ -48,5 +48,9 @@ module.exports = {
       'pixi': pixi,
       'p2': p2
     }
-  }
+  },
+  plugins: [
+    new webpack.NoErrorsPlugin(),
+    new htmlWebpackPlugin()
+  ]  
 }

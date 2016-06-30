@@ -6,6 +6,11 @@ export default class Player extends Phaser.Sprite {
     game.physics.p2.enable(this);
   }
 
+  update(){
+    const game = this.game;
+    this.playerControls(game);
+  }
+
   create(){
   }
 
@@ -13,6 +18,7 @@ export default class Player extends Phaser.Sprite {
   }
 
   render(){
+    // game.debug.cameraInfo(game.camera, 32, 32);    
   }
 
   playerControls(game){
@@ -38,9 +44,4 @@ export default class Player extends Phaser.Sprite {
 
   }
 
-  update(){
-    const game = this.game;
-    this.playerControls(game);
-
-  }
 }

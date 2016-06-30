@@ -8,9 +8,8 @@ export default class Init extends Phaser.State {
   }
 
   create(game){
-    console.log('Init.create');
     game.physics.startSystem(Phaser.Physics.P2JS);
-    game.world.setBounds(0, 0, 3600, 3600 / 16 * 9);
+    game.physics.p2.setImpactEvents(true);
 
     game.cursors = game.input.keyboard.createCursorKeys();
     game.fireButton = game.input.keyboard.addKey(Phaser.KeyCode.SPACEBAR);
